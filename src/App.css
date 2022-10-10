@@ -1,11 +1,46 @@
 :root {
-  --textColor: rgb(65, 64, 66);
-  --btnBgColor: #3287b7;
+  --textColor: #414042;
+  --btnBgColor: #4a9dcc;
 }
 
 html {
+  scroll-behavior: smooth;
+}
+
+* {
   margin: 0;
   padding: 0;
   font-size: 1em;
-  font-family: "Neutrif Pro";
+  font-family: 'Poppins', sans-serif;
+  /* font-family: "Neutrif Pro"; */
+}
+
+button {
+  outline: none !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.primaryBtn {
+  background-color: var(--btnBgColor);
+  border-radius: 1.5em;
+  color: #fff;
+  padding: 0.5em 1.5em;
+  font-size: 1.2em;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  text-decoration: none;
+}
+
+.app_layout {
+  background-color: #f2f0e4;
+  height: 100vh;
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+  overflow: hidden;
 }

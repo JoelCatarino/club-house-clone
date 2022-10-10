@@ -1,11 +1,12 @@
 import React from "react";
-import style from "../style/Welcome.module.css";
+import styles from "../styles/welcome.module.css";
+import { Link } from "react-router-dom";
 
-export function Welcome() {
+export default function Welcome() {
   return (
-    <div className={style.WelcomeContainer}>
-      <h1>Welcome</h1>
-      <div className={style.WelcomeInfo}>
+    <div className={styles.WelcomeContainer}>
+      <h1>Welcome!</h1>
+      <div className={styles.WelcomeInfo}>
         <p>
           We're working hard to get clubhouse ready for everyone! While we wrap
           up the finishing touches, we're adding people gradually to make sure
@@ -19,7 +20,15 @@ export function Welcome() {
         </p>
         <p>Paul, Rohan & the Clubhouse team</p>
       </div>
+      <div className={styles.actionBtn}>
+        <Link
+          to="/invite"
+          className="primaryBtn d-flex align-items-center mb-3"
+        >
+          Get your username {/* <img src="" alt="" /> */}
+        </Link>
+        <Link>Have an invite text? Sign in</Link>
+      </div>
     </div>
   );
 }
-// export default Welcome();

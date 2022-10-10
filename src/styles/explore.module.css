@@ -1,0 +1,140 @@
+.exploreContainer {
+  padding: 0 0.5em;
+  height: 100%;
+  overflow: auto;
+  padding-top: 5.2em;
+}
+
+.exploreContainer h6 {
+  font-size: 0.975em;
+  font-weight: 500;
+  color: #bbb;
+  margin: 1.5em 0 0.5em 0;
+}
+
+.head {
+  text-align: center;
+  padding: 0.5em 0.5em;
+  position: relative;
+  margin-bottom: 0.5em;
+}
+
+.head h3 {
+  font-size: 1.2em;
+  margin: 0;
+}
+
+.head img {
+  width: 15px;
+  position: absolute;
+  left: 0px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.header {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-color: #f2f0e4;
+  z-index: 5;
+  padding: 0.5em;
+}
+
+.showMore {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: -14px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #f4f4f4 !important;
+  border: none !important;
+  color: #aaa !important;
+  box-shadow: 0px 2px 3px #ccc;
+}
+
+.showMore span {
+  font-size: 0.775em !important;
+  margin-top: 0.4em;
+  margin-left: 0.5em;
+}
+
+.peopleContainer {
+  background-color: #fff;
+  margin: 0 -0.5em;
+  padding: 0.5em 0.5em 1.5em 0.5em;
+  position: relative;
+}
+
+.peopleContainer > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.5em;
+}
+
+.peopleContainer img {
+  width: 50px;
+  border-radius: 1.1em;
+}
+
+.peopleContainer h5 {
+  color: var(--textColor);
+  font-size: 1em;
+  margin-bottom: 0.1em;
+  color: #000;
+}
+
+.peopleContainer p {
+  color: var(--textColor);
+  font-size: 0.8em;
+  display: flex;
+  display: -webkit-box;
+  width: 173px;
+  height: fit-content;
+  line-height: 1.15;
+  --webkit-line-clamp: 2;
+  --webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #aaa;
+}
+
+.peopleContainer button {
+  background-color: transparent;
+  border: 2px solid var(--btnBgColor);
+  color: var(--btnBgColor);
+  font-weight: 400;
+  font-size: 1em;
+  padding: 0.1em 1.2em;
+  border-radius: 2em;
+}
+
+.conversationCard {
+  background-color: #fff;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  box-shadow: 0px 2px 3px #ccc;
+}
+
+.conversationCard h6 {
+  color: #000;
+  /* color: var(--textColor); */
+  font-size: 1em;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.conversationCard h6 span {
+  margin-right: 0.2em;
+}
+
+.conversationCard p {
+  margin: 0;
+  color: #aaa;
+  line-height: 1.2;
+  font-size: 0.8em;
+}

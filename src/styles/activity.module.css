@@ -1,0 +1,28 @@
+.activityContainer {
+  height: 100%;
+  /* overflow: auto; */
+  padding: 0 0.5em;
+  padding-bottom: 0.5em;
+}
+
+.peopleContainer {
+  padding: 0.5em;
+  margin-top: 4em;
+}
+
+.peopleContainer img {
+  width: 50px;
+  display: flex;
+  border-radius: 1em;
+}
+
+.peopleContainer p {
+    margin: 0;
+    font-size: small;
+}
+
+.peopleContainer span {
+    color: #aaa;
+    margin-left: 5em;
+    font-size: 1em;
+}
