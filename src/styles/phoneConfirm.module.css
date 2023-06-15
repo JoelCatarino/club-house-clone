@@ -14,6 +14,7 @@
   font-style: normal;
   margin-bottom: 10px;
   color: var(--text-color);
+  margin-bottom: 15px;
 }
 
 .PhoneConfirmContainer p {
@@ -85,3 +86,22 @@
   color: rgb(24, 44, 29);
 }
 
+/* invite */
+.PhoneConfirmContainer .phoneInput {
+  padding-bottom: 1em;
+  border: none;
+}
+
+.PhoneConfirmContainer .phoneInput img {
+ border-radius: 5px;
+ margin-top: 0.5em;
+ margin-bottom: 0.5em;
+}
+
+.phoneInput input, select {
+  border-radius: 5px;
+  max-width: 160px;
+  border: none;
+  width: 400px;
+  padding: 2px;
+}

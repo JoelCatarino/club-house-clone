@@ -15,9 +15,10 @@ export default function PhoneConfirm() {
       <h1>Enter your phone</h1>
       <PhoneInput
         defaultCountry="BR"
-        placeholder="Enter phone number"
+        placeholder="Phone number"
         value={value}
         onChange={setValue}
+        className={styles.phoneInput}
       />
       <p>
         By entering your number, you're agreeing to our{" "}

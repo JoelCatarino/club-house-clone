@@ -19,6 +19,7 @@ export default function CodeConfirm() {
           style={{
             width: "100%",
             border: "none",
+            borderRadius: "5px",
             textAlign: "center",
             outline: "none",
           }}
